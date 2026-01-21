@@ -25,7 +25,7 @@ create a user and password protect it.
 Install packages 
 <br/>
 ```
-sudo pacman -Sy stow sudo base-devel neovim zsh networkmanager zsh-autosuggestions zsh-syntax-highlighting zsh-autocomplete zsh-history-substring-search zoxide fzf bat trash-cli gnu-netcat glibc tcpdump vi git
+sudo pacman -Sy stow sudo base-devel neovim zsh networkmanager zsh-autosuggestions zsh-syntax-highlighting zsh-autocomplete zsh-history-substring-search zoxide fzf bat trash-cli glibc tcpdump vi git
 ```
 
 Enable NetworkManager.
@@ -34,13 +34,14 @@ Enable NetworkManager.
 
 configure the locale settings.
 <br/>
-Edit ```/etc/locale.gen``` with your favorite editor.
+Edit ```nvim /etc/locale.gen``` with your favorite editor.
 <br/>
 Uncomment the locale you want to use, mine is, ```en_US.UTF-8 UTF-8```
 <br/>
 Run ```locale-gen```
 
-Next fire up ```visudo``` and remove the # from the NOPASSWD line and put a # in front of the other %wheel line. This way you are not prompted for a sudo password.
+change to root by ```su -```
+run ```visudo``` and remove the # from the NOPASSWD line and put a # in front of the other %wheel line. This way you are not prompted for a sudo password.
 <br/>
 ```
 ##
