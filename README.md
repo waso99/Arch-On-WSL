@@ -94,7 +94,24 @@ On of the packages I install with yay is for example zsh-vi-mode
 Change default shell:
 ```chsh -s $(which zsh)```
 
-###oh-my-zsh
+### oh-my-zsh
 Install ohmyzsh
 
 ```sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"```
+
+
+### yazi theme
+
+```ya pkg add bennyyip/gruvbox-dark```
+or
+```git clone https://github.com/dangooddd/kanagawa.yazi.git ~/.config/yazi/flavors/kanagawa.yazi```
+
+add below to theme.toml:
+```
+[flavor]
+
+#dark = "gruvbox-dark"
+#dark = "kanagawa"
+#dark = "kanagawa"
+dark = "catppuccin-mocha"
+```
