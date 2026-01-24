@@ -93,3 +93,8 @@ On of the packages I install with yay is for example zsh-vi-mode
 <br/>
 Change default shell:
 ```chsh -s $(which zsh)```
+
+###oh-my-zsh
+Install ohmyzsh
+
+```sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"```
