@@ -89,3 +89,6 @@ Change into the yay directory, cd yay
 On of the packages I install with yay is for example zsh-vi-mode
 <br/>
 ```yay -Sy zsh-vi-mode```
+<br/>
+Change default shell:
+```chsh -s $(which zsh)```
