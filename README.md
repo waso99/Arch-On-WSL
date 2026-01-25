@@ -25,7 +25,7 @@ create a user and password protect it.
 Install packages 
 <br/>
 ```
-sudo pacman -Sy stow sudo base-devel neovim zsh networkmanager zsh-autosuggestions zsh-syntax-highlighting zsh-autocomplete zsh-history-substring-search zoxide fzf bat trash-cli glibc tcpdump vi git yazi ffmpeg 7zip jq poppler fd ripgrep fzf zoxide resvg imagemagick
+sudo pacman -Sy stow sudo base-devel neovim zsh networkmanager zoxide fzf bat trash-cli glibc tcpdump vi git yazi ffmpeg 7zip jq poppler fd ripgrep fzf zoxide resvg imagemagick
 
 ```
 
